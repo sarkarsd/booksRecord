@@ -37,8 +37,3 @@ class Database:
     def __del__(self):
         self.conn.close()
 
-# insert("The sun", "John", 1954, 1999939)
-# delete(2)
-# update(1, "super man", "donkey", 1234, 18383939393)
-# print(view())
-# print(search(title="The Earth"))
